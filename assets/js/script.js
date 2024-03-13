@@ -13,7 +13,7 @@ for (let i = 1; i <= ronda; i++) {
 
   if (jugadorUsuario === jugadorComputador) {
     alert("Empate");
-    resultado = "Empatate";
+    resultado = "Empate";
   } else if (
     (jugadorUsuario === "piedra") & (jugadorComputador === "tijera") ||
     (jugadorUsuario === "papel") & (jugadorComputador === "piedra") ||
